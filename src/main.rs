@@ -5,9 +5,10 @@ fn main() {
     };
 
     println!("the area of rec1 ={}-----",area(&rec1));
-
+    println!("the area of rec1 ={rec1:?}-----");
 }
 
+#[derive(Debug)]
 struct Rectangle{
     width:i32,
     height:i32,
